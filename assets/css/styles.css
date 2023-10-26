@@ -5,14 +5,6 @@
 
 }
 
-html {
-    height: -webkit-fill-available;
-  }
-
-.test {
-    overflow-x: hidden;
-}
-
 /***** SCROLLBAR GENERAL *****/
 /*****************************/
 ::-webkit-scrollbar {
@@ -42,6 +34,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: -webkit-fill-available;
 }
 
 h1,

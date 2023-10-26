@@ -47,12 +47,7 @@
         width: 50%;
     }
 }
-@supports (-webkit-touch-callout: none) {
-    body {
-      /* The hack for Safari */
-      min-height: -webkit-fill-available;
-    }
-  }
+
 @media screen and (min-width:1600px) {
 
     #nav-mobile,
