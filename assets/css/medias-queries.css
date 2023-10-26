@@ -47,7 +47,12 @@
         width: 50%;
     }
 }
-
+@supports (-webkit-touch-callout: none) {
+    body {
+      /* The hack for Safari */
+      min-height: -webkit-fill-available;
+    }
+  }
 @media screen and (min-width:1600px) {
 
     #nav-mobile,
@@ -55,15 +60,7 @@
         display: none;
     }
 
-    #nav-items {
-        background: transparent;
-        display: flex;
-        flex-direction: row;
-        position: initial;
-        transform: none;
-        height: initial;
-        width: 60%;
-    }
+
 
     header>div:first-child {
         flex-direction: row;
