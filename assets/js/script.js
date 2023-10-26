@@ -15,4 +15,3 @@ menuCloseHtml.addEventListener('click', () => {
     menuOpenHtml.classList.toggle('d-none');
     menuCloseHtml.classList.toggle('d-none');
 });
-
