@@ -605,6 +605,7 @@ h6 {
 
 .vh-90 {
     height: 90svh;
+    height: -webkit-fill-available;
 }
 
 .vh-100 {
