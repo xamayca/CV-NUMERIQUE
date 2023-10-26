@@ -2,7 +2,6 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
-
 }
 
 /***** SCROLLBAR GENERAL *****/
@@ -34,7 +33,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: -webkit-fill-available;
 }
 
 h1,
