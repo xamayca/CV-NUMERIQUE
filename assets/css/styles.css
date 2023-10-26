@@ -33,7 +33,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
+html {
+    height: -webkit-fill-available;
+  }
 
 h1,
 h2,
@@ -396,7 +402,9 @@ h6 {
 .w-auto {
     width: auto;
 }
-
+.w-0 {
+    width: 0;
+}
 .w-10 {
     width: 10%;
 }
