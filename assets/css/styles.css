@@ -582,7 +582,7 @@ h6 {
 /***** HEIGHT VH GENERAL *****/
 /****************************/
 .vh-10 {
-    height: 10dvh;
+    height: 10vh;
 }
 
 .vh-20 {
@@ -606,11 +606,11 @@ h6 {
 }
 
 .vh-90 {
-    height: 90dvh;
+    height: 90vh;
 }
 
 .vh-100 {
-    height: 100dvh;
+    height: 100vh;
 }
 
 /***** POSITIONNEMENT & DISPLAY FLEX CSS GENERAL *****/
