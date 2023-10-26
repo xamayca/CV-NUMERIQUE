@@ -1,0 +1,94 @@
+/********************************************************************************/
+/********************************* MÉDIAS QUERY *********************************/
+/********************************************************************************/
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+@media screen and (min-width:1024px) and (max-width:1600px) {
+
+    #nav-mobile,
+    #mobile-items {
+        display: none;
+    }
+
+    #nav-items {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        transform: none;
+        height: initial;
+        width: 60%;
+    }
+
+    header>div:first-child {
+        flex-direction: row;
+    }
+
+    header h3 {
+        font-size: 1.3em;
+    }
+
+    header h2 {
+        font-size: 2em;
+    }
+
+    header #download-cv {
+        font-size: 1.3em;
+        padding: 1.1em;
+    }
+
+    #pc-items {
+        display: flex;
+    }
+
+    #about-me h4,
+    #about-me p {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    #nav-mobile,
+    #mobile-items {
+        display: none;
+    }
+
+    #nav-items {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        transform: none;
+        height: initial;
+        width: 60%;
+    }
+
+    header>div:first-child {
+        flex-direction: row;
+    }
+
+    header h3 {
+        font-size: 1.3em;
+    }
+
+    header h2 {
+        font-size: 2em;
+    }
+
+    header #download-cv {
+        font-size: 1.3em;
+        padding: 1.1em;
+    }
+
+    #pc-items {
+        display: flex;
+    }
+
+    #about-me h4,
+    #about-me p {
+        width: 50%;
+    }
+
+}
