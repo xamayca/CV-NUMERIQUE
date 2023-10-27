@@ -32,8 +32,8 @@
 /***************************/
 body {
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    height: -webkit-fill-available;
+    min-height: 100dvh;
+    min-height: -webkit-fill-available;
 }
 
 h1,
