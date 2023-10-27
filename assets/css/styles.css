@@ -32,7 +32,7 @@
 /***************************/
 body {
     font-family: 'Roboto', sans-serif;
-    min-height: 100dvh;
+    min-height: 100vh;
     height: -webkit-fill-available;
 }
 
@@ -582,11 +582,11 @@ h6 {
 /***** HEIGHT VH GENERAL *****/
 /****************************/
 .vh-10 {
-    height: 10dvh;
+    height: 10vh;
 }
 
 .vh-20 {
-    height: 20dvh;
+    height: 20vh;
 }
 
 .vh-25 {
@@ -602,11 +602,11 @@ h6 {
 }
 
 .vh-80 {
-    height: 80dvh;
+    height: 80vh;
 }
 
 .vh-90 {
-    height: 90dvh;
+    height: 90vh;
 }
 
 .vh-100 {
