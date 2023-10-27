@@ -578,6 +578,39 @@ h6 {
 .h-100 {
     height: 100%;
 }
+/***** HEIGHT DVH GENERAL *****/
+/****************************/
+.dvh-10 {
+    height: 10dvh;
+}
+
+.dvh-20 {
+    height: 20dvh;
+}
+
+.dvh-25 {
+    height: 25dvh;
+}
+
+.dvh-50 {
+    height: 50dvh;
+}
+
+.dvh-75 {
+    height: 75dvh;
+}
+
+.dvh-80 {
+    height: 80dvh;
+}
+
+.dvh-90 {
+    height: 90dvh;
+}
+
+.dvh-100 {
+    height: 100dvh;
+}
 
 /***** HEIGHT VH GENERAL *****/
 /****************************/
