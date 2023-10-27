@@ -582,11 +582,11 @@ h6 {
 /***** HEIGHT VH GENERAL *****/
 /****************************/
 .vh-10 {
-    height: 10vh;
+    height: 10dvh;
 }
 
 .vh-20 {
-    height: 20vh;
+    height: 20dvh;
 }
 
 .vh-25 {
@@ -602,11 +602,11 @@ h6 {
 }
 
 .vh-80 {
-    height: 80vh;
+    height: 80dvh;
 }
 
 .vh-90 {
-    height: 90vh;
+    height: 90dvh;
 }
 
 .vh-100 {
