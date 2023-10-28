@@ -882,11 +882,11 @@ h6 {
 }
 
 .pt-4 {
-    padding-top: 5em;
+    padding-top: 4em;
 }
 
-.pt-10-vh {
-    padding-top: 10vh;
+.pt-5 {
+    padding-top: 5em;
 }
 
 /***** PADDING BOTTOM CSS GENERAL *****/
@@ -912,6 +912,10 @@ h6 {
 }
 
 .pb-4 {
+    padding-bottom: 4em;
+}
+
+.pb-5 {
     padding-bottom: 5em;
 }
 
