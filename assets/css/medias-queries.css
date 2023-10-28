@@ -19,34 +19,10 @@
         position: initial;
         transform: none;
         height: initial;
-        width: 60%;
+
     }
 
-    #navigation-links a {
-        font-size: small;
-        padding: 0.5em;
-    }
 
-    header>div:first-child {
-        flex-direction: row;
-    }
-
-    header h3 {
-        font-size: 1.3em;
-    }
-
-    header h2 {
-        font-size: 2em;
-    }
-
-    #pc-items {
-        display: flex;
-    }
-
-    #about-me h4,
-    #about-me p {
-        width: 50%;
-    }
 }
 
 @media screen and (min-width:1600px) {
@@ -67,30 +43,5 @@
         width: 60%;
     }
 
-    header>div:first-child {
-        flex-direction: row;
-    }
-
-    header h3 {
-        font-size: 1.3em;
-    }
-
-    header h2 {
-        font-size: 2em;
-    }
-
-    header #download-cv {
-        font-size: 1.3em;
-        padding: 1.1em;
-    }
-
-    #pc-items {
-        display: flex;
-    }
-
-    #about-me h4,
-    #about-me p {
-        width: 50%;
-    }
 
 }

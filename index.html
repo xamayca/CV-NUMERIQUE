@@ -30,20 +30,20 @@
         <ul id="navigation-links"
             class="d-flex justify-around flex-column items-center absolute w-100 dvh-90 top-100 list-none txt-spc-02 bg-dark-light">
             <li>
-                <a href="#aboutme" class="link-dark-grey txt-white txt-up p-1 transition-03" title="A propos de moi">A
+                <a href="#aboutme" class="link-dark-grey txt-white txt-up p-1 transition-03" title="À propos">À
                     propos</a>
             </li>
             <li>
                 <a href="#abilities" class="link-dark-grey txt-white txt-up p-1 transition-03"
-                    title="Mes Compétences">Competences</a>
+                    title="Compétences">Compétences</a>
             </li>
             <li>
                 <a href="#projects" class="link-dark-grey txt-white txt-up p-1 transition-03"
-                    title="Mes Projets">Projets</a>
+                    title="Projets">Projets</a>
             </li>
             <li>
                 <a href="#experiences" class="link-dark-grey txt-white txt-up p-1 transition-03"
-                    title="Mon Parcours">Experiences</a>
+                    title="Expériences">Expériences</a>
             </li>
 
             <!--Navigation contact items link  (mobile) -->
@@ -51,28 +51,24 @@
                 <!-- Phone Mobile contact -->
                 <a href="tel:+079872943" class="d-flex items-center p-1 link-dark-grey" target="_blank">
                     <img src="assets/img/contact-phone.svg" class="h-90 w-90"
-                        alt="Cliquez sur ce bouton pour m'appeler sur mon téléphone"
-                        title="Cliquez sur ce bouton pour m'appeler sur mon téléphone">
+                        alt="Cliquez pour m'appeler sur mon portable" title="Cliquez pour m'appeler sur mon portable">
                 </a>
                 <!-- Email Mobile contact -->
                 <a href="mailto:christopher.hariouat@gmail.com" class="d-flex items-center p-1 link-dark-grey"
                     target="_blank">
-                    <img src="assets/img/contact-mail.svg" class="h-90 w-90"
-                        alt="Cliquez sur ce bouton pour m'envoyer un mail"
-                        title="Cliquez sur ce bouton pour m'envoyer un mail">
+                    <img src="assets/img/contact-mail.svg" class="h-90 w-90" alt="Cliquez envoyer un mail"
+                        title="Cliquez pour m'envoyer un mail">
                 </a>
                 <!-- LinkedIn Mobile contact -->
                 <a href="https://www.linkedin.com/in/christopher-hariouat-b87714294/"
                     class="d-flex items-center p-1 link-dark-grey" target="_blank">
-                    <img src="assets/img/contact-linkedIn.svg" class="h-90 w-90"
-                        alt="Cliquez sur ce bouton pour voir mon LinkedIn"
-                        title="Cliquez sur ce bouton pour voir mon profil LinkedIn">
+                    <img src="assets/img/contact-linkedIn.svg" class="h-90 w-90" alt="Cliquez pour voir mon LinkedIn"
+                        title="Cliquez pour voir mon profil LinkedIn">
                 </a>
                 <!-- Github Mobile contact -->
                 <a href="https://github.com/xamayca" class="d-flex items-center p-1 link-dark-grey" target="_blank">
-                    <img src="assets/img/contact-github.svg" class="h-90 w-90"
-                        alt="Cliquez sur ce bouton pour voir mon Github"
-                        title="Cliquez sur ce bouton pour voir mon profil Github">
+                    <img src="assets/img/contact-github.svg" class="h-90 w-90" alt="Cliquez pour voir mon Github"
+                        title="Cliquez pour voir mon profil Github">
                 </a>
             </li>
 
@@ -80,12 +76,10 @@
     </nav>
 
     <!-- HEADER / DOWNLOAD CV BUTTON / PC CONTACT LINKS -->
-    <header class="d-flex flex-column justify-evenly items-center dvh-90 bg-dark-light mt-10vh border-section">
-
+    <header class="d-flex flex-column justify-evenly items-center dvh-90 bg-dark-light mt-10vh">
 
         <!-- Avatar profile -->
-        <div id="avatar" class="shadow-bottom bg-dark transition-05 order mt-1">
-        </div>
+        <div id="avatar" class="shadow-bottom bg-dark transition-05 order mt-1"></div>
 
         <!-- Titre profile -->
         <section class="d-flex flex-column txt-center gap-1">
@@ -95,51 +89,129 @@
             Développeur Web & mobile
         </section>
 
+        <!-- Download cv button -->
         <a id="download-cv" href="#" class="btn-dark link-dark-grey p-1 txt-white fw-bold txt-up shadow-bottom"
             title="Appuyez ici pour Télécharger mon CV">
             Télécharger mon cv
         </a>
 
-        <img id="arrow-down" src="assets/img/arrrow-down.svg" class="h-auto w-auto test" alt="Défilé vers le bas">
+        <img id="arrow-down" src="assets/img/arrow-down.svg" class="h-auto w-auto test" alt="Défilé vers le bas">
 
     </header>
 
     <section class="d-flex flex-column items-center txt-center">
 
-        <h3 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-3 mt-3">
-            Compétences
-        </h3>
+        <!-- Section Title -->
+        <h3 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-3 mt-3">À propos</h3>
 
+    </section>
+
+    <!-- SECTION SKILLS / HTML / CSS / JS / BOOTSTRAP / FIGMA / PHOTOSHOP -->
+    <section class="d-flex flex-column items-center txt-center">
+
+        <!-- Section Title -->
+        <h3 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-3 mt-3">Compétences</h3>
+
+        <!-- Skills container -->
         <div class="d-flex justify-evenly flex-wrap gap-1 w-100">
 
-            <div id="skill" class="d-flex flex-column relative vh-20 w-40 overflow-h">
-                <img src="assets/img/html5-logo.svg" class="object-contain filter w-100 h-100"
-                    alt="Logo du language HTML 5" />
+            <!-- HTML SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/html5-logo.svg" class="object-contain w-100 h-100"
+                    alt="Logo du language de structure HTML 5" />
 
+                <!-- HTML inner skill container -->
                 <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
-
                     <div class="d-flex flex-column gap-1 pb-1 pt-1">
-                        <h6 class="txt-white txt-up fw-bold">HTML 5</h6>
-                        <small class="fw-bold txt-white txt-underline fs-05">Language Front End</small>
-                        <a href="" class="btn-dark link-dark-grey fw-bold txt-white p-05">En savoir plus</a>
+                        <h4 class="txt-up">HTML 5</h4>
+                        <small>Language Front End</small>
+                        <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
                     </div>
-
                 </div>
 
             </div>
 
-            <div id="skill" class="d-flex flex-column relative vh-20 w-40 overflow-h">
-                <img src="assets/img/css3-logo.svg" class="object-contain filter w-100 h-100"
-                    alt="Logo du language HTML 5" />
+            <!-- CSS SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/css3-logo.svg" class="object-contain w-100 h-100"
+                    alt="Logo du language de style CSS 3" />
 
+                <!-- CSS inner skill container -->
                 <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
-
                     <div class="d-flex flex-column gap-1 pb-1 pt-1">
-                        <h6 class="txt-white txt-up fw-bold">CSS 3</h6>
-                        <small class="fw-bold txt-white txt-underline fs-05">Language Front End</small>
-                        <a href="" class="btn-dark link-dark-grey fw-bold txt-white p-05">En savoir plus</a>
+                        <h4 class="txt-up">CSS 3</h4>
+                        <small>Language Front End</small>
+                        <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
                     </div>
+                </div>
 
+            </div>
+
+            <!-- JAVASCRIPT SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/js-logo.svg" class="object-contain w-100 h-100"
+                    alt="Logo du language Javascript" />
+
+                <!-- JAVASCRIPT inner skill container -->
+                <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
+                    <div class="d-flex flex-column gap-1 pb-1 pt-1">
+                        <h4 class="txt-up">Javascript</h4>
+                        <small>Language Front End</small>
+                        <a href="https://fr.wikipedia.org/wiki/JavaScript"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOOTSTRAP SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/bootstrap-logo.svg" class="object-contain w-100 h-100"
+                    alt="Logo du framework Bootstrap" />
+
+                <!-- BOOTSTRAP inner skill container -->
+                <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
+                    <div class="d-flex flex-column gap-1 pb-1 pt-1">
+                        <h4 class="txt-up">Bootstrap</h4>
+                        <small>Framework Front End</small>
+                        <a href="https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- FIGMA SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/figma-logo.svg" class="object-contain w-100 h-100" alt="Logo du logiciel Figma" />
+
+                <!-- FIGMA inner skill container -->
+                <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
+                    <div class="d-flex flex-column gap-1 pb-1 pt-1">
+                        <h4 class="txt-up">Figma</h4>
+                        <small>Logiciel de maquettage</small>
+                        <a href="https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PHOTOSHOP SKILL -->
+            <div class="skill d-flex flex-column relative vh-20 w-40 overflow-h">
+                <img src="assets/img/photoshop-logo.svg" class="object-contain w-100 h-100"
+                    alt="Logo du logiciel Photoshop" />
+
+                <!-- PHOTOSHOP inner skill container -->
+                <div class="d-flex flex-column items-center absolute bottom-0 w-100 rbg-08-black">
+                    <div class="d-flex flex-column gap-1 pb-1 pt-1">
+                        <h4 class="txt-up">Photoshop</h4>
+                        <small>Logiciel de retouche</small>
+                        <a href="https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+                            class="btn-dark link-dark-grey fw-bold txt-up txt-white p-05">En savoir plus</a>
+                    </div>
                 </div>
 
             </div>
@@ -154,14 +226,19 @@
 
 
 
-    <p class="mt-5 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error atque, vero distinctio
+    <p class="mt-5 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error atque, vero
+        distinctio
         autem enim, nihil
-        magni dicta nam nisi dignissimos consectetur. Obcaecati voluptatem vero laborum, eum numquam eaque! Alias autem
+        magni dicta nam nisi dignissimos consectetur. Obcaecati voluptatem vero laborum, eum numquam eaque! Alias
+        autem
         a obcaecati in velit aperiam eligendi omnis vitae, sed sint quod optio commodi cupiditate quis ex maiores
-        voluptate enim laborum quasi voluptatem! Cumque molestiae mollitia dolorem porro velit suscipit eligendi natus
+        voluptate enim laborum quasi voluptatem! Cumque molestiae mollitia dolorem porro velit suscipit eligendi
+        natus
         culpa, cum at nesciunt, in ex aliquid laborum fuga exercitationem labore vero, perspiciatis consequatur
-        praesentium doloremque. Deserunt, quaerat consectetur quae in, doloribus nihil eveniet commodi nobis consequatur
-        obcaecati delectus ducimus porro cum eaque dolor iusto repellat sequi suscipit fugiat error impedit dignissimos
+        praesentium doloremque. Deserunt, quaerat consectetur quae in, doloribus nihil eveniet commodi nobis
+        consequatur
+        obcaecati delectus ducimus porro cum eaque dolor iusto repellat sequi suscipit fugiat error impedit
+        dignissimos
         cumque ullam accusantium! Odio ducimus excepturi amet. Ad, dolore quod. Ipsa sint dolore aliquam voluptates
         sapiente explicabo qui soluta quas eaque animi consequatur molestias perferendis voluptate accusantium,
         assumenda inventore quod quaerat cupiditate? Ab ipsam delectus consectetur adipisci voluptate, quam laborum
