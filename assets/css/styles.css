@@ -800,7 +800,7 @@ h6 {
     border: 0.3em solid #5D6D7E;
 }
 
-.border-title {
+.border-section {
     border-bottom: 0.2em solid;
     border-image: linear-gradient(to right, transparent, #5D6D7E, transparent);
     border-image-slice: 1;
