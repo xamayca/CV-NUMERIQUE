@@ -6,12 +6,13 @@
 
 @media screen and (min-width:1024px) and (max-width:1600px) {
 
-    #nav-mobile,
+    #menu-open,
+    #menu-close,
     #mobile-items {
         display: none;
     }
 
-    #nav-items {
+    #navigation-links {
         background: transparent;
         display: flex;
         flex-direction: row;
@@ -19,6 +20,11 @@
         transform: none;
         height: initial;
         width: 60%;
+    }
+
+    #navigation-links a {
+        font-size: small;
+        padding: 0.5em;
     }
 
     header>div:first-child {
@@ -33,11 +39,6 @@
         font-size: 2em;
     }
 
-    header #download-cv {
-        font-size: 1.3em;
-        padding: 1.1em;
-    }
-
     #pc-items {
         display: flex;
     }
@@ -50,9 +51,20 @@
 
 @media screen and (min-width:1600px) {
 
-    #nav-mobile,
+    #menu-open,
+    #menu-close,
     #mobile-items {
         display: none;
+    }
+
+    #navigation-links {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        transform: none;
+        height: initial;
+        width: 60%;
     }
 
     header>div:first-child {

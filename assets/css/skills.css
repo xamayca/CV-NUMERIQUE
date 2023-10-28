@@ -1,0 +1,120 @@
+#skill img {
+    transition: filter 0.3s ease-in-out;
+}
+
+#skill:hover img {
+    filter: none;
+    transform: scale(3.5) rotate(20deg);
+}
+
+#skill img {
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#skill>div {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+#skill:hover>div {
+    transform: translateY(0%);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.fs-05 {
+    font-size: 75%;
+}
+
+.bg {
+    background-color: rgb(19, 22, 26, 0.8);
+}
+
+
+/****
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .bg-light {
+    background-color: #5D6D7E;
+  }
+  
+  .bg-light-grey {
+    background-color: #4A5765;
+  }
+  
+  .bg-grey{
+    background-color: #BDC3C7;
+  }
+  
+  .bg-light-dark {
+    background-color: #2C3A47;
+  }
+  
+  .bg-black {
+    background-color: #000000;
+  }
+  
+  .bg-blue {
+    background-color: #2c3e50;
+  }
+  
+  .bg-blue-light{
+    background-color: #34495E;
+  }
+  
+  .bg-dark{
+    background-color: #13161A;
+  }
+  
+  .bg-dark-light{
+    background-color: #1A1D24;
+  }
+  
+  .bg-dark-grey {
+    background-color: #282a35;
+  }
+  
+  #1B2631 : Un gris-bleu plus profond pour des contrastes subtiles.
+  
+  #1F2833 : Une nuance de bleu-gris plus sombre, légèrement plus profonde que votre couleur "bg-dark."
+  
+  #FFC300 : Une couleur jaune vif pour les éléments d'accentuation.
+  
+  #C0392B : Un rouge terreux pour les éléments d'accentuation ou de mise en évidence.
+  
+  #2ECC71 : Un vert émeraude pour ajouter une touche de couleur contrastante.
+  
+  #E74C3C : Une nuance de rouge plus vive pour les points d'intérêt.
+  
+  #2980B9 : Un bleu électrique pour les éléments d'accentuation ou de mise en évidence.
+  
+  #232E4C : Une nuance légèrement plus foncée, créant un contraste plus marqué.
+  
+  #1E2750 : Une nuance plus profonde de bleu foncé.
+  
+  #192443 : Un bleu encore plus sombre, presque vers le noir.
+  
+  #141D3B : Une nuance très foncée, idéale pour les arrière-plans sombres.
+  
+  #0F162F : Une variation encore plus foncée, presque noire, pour des contrastes forts.
+  
+  #202230 : Une nuance légèrement plus foncée, conservant la palette de couleurs sombres.
+  
+  #1B1C28 : Une variation plus profonde de la couleur de base.
+  
+  #15161F : Un bleu-noir encore plus sombre pour un fort contraste.
+  
+  #0F1017 : Une nuance très sombre, approchant le noir pur.
+  
+  #090A0F : Une nuance presque entièrement noire, idéale pour des arrière-plans très 
+  
+  .bg {
+    background-color: rgb(44, 87, 101, 0.98) #2C5765;
+    background-color: rgb(44, 62, 101, 0.98) #2C3E65;
+  }
+  
+  **/

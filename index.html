@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/navigation.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/medias-queries.css">
     <title>Portfolio: HARIOUAT Christopher</title>
 </head>
 
 <body class="bg-dark txt-white">
 
+    <!-- NAVIGATION BAR / NAVIGATION LINKS / MOBILE CONTACT LINKS -->
     <nav class="d-flex items-center justify-around fixed vh-10 w-100 top-0 bg-dark fw-bold z-2">
 
-        <h1>Hariouat Christopher</h1>
+        <h1 class="fs-1-5">LOGO</h1>
 
         <img id="menu-open" src="assets/img/menu-open.svg" class="w-auto h-50 pointer" alt="">
         <img id="menu-close" src="assets/img/menu-close.svg" class="w-auto h-50 pointer d-none" alt="">
@@ -78,40 +80,102 @@
     </nav>
 
     <!-- HEADER / DOWNLOAD CV BUTTON / PC CONTACT LINKS -->
-    <header class="d-flex flex-column items-center dvh-90 bg-dark-light mt-10vh">
+    <header class="d-flex flex-column justify-evenly items-center dvh-90 bg-dark-light mt-10vh border-title">
 
-        <!-- Header container -->
-        <div class="d-flex flex-column items-center justify-around w-100 h-100 txt-white">
 
-            <!-- Document title / subtitle container -->
-            <div class="d-flex flex-column items-center gap-1 order-1 txt-up">
-
-                <!-- Portfolio title -->
-                <h2 class="txt-grey">
-                    Bienvenue sur mon Portfolio
-                </h2>
-
-                <!-- Portfolio subtitle -->
-                <h3 class="shadow-bottom bg-light-dark p-05">
-                    Je suis développeur web !
-                </h3>
-            </div>
-
-            <!-- Avatar profile -->
-            <div class="avatar shadow-bottom bg-dark border-03 transition-05 order"></div>
-
+        <!-- Avatar profile -->
+        <div id="avatar" class="shadow-bottom bg-dark transition-05 bo order mt-1">
         </div>
 
-        <!-- Cv download button -->
-        <div class="d-flex flex-column items-center gap-3">
-            <a id="download-cv" href="#" class="btn-dark link-dark-grey p-1 txt-white fw-bold txt-up shadow-bottom"
-                title="Appuyez ici pour Télécharger mon CV">
-                Télécharger mon cv
-            </a>
-            <img id="arrow-down" src="assets/img/arrrow-down.svg" class="h-auto w-auto" alt="Défilé vers le bas">
-        </div>
+        <!-- Titre profile -->
+        <section class="d-flex flex-column txt-center gap-1">
+            <h2 class="fs-1-5 txt-up">
+                <span class="txt-spc-02">Hariouat</span> Christopher
+            </h2>
+            Développeur Web & mobile
+        </section>
+
+        <section>
+
+        </section>
+
+        <a id="download-cv" href="#" class="btn-dark link-dark-grey p-1 txt-white fw-bold txt-up shadow-bottom"
+            title="Appuyez ici pour Télécharger mon CV">
+            Télécharger mon cv
+        </a>
+
+        <img id="arrow-down" src="assets/img/arrrow-down.svg" class="h-auto w-auto test" alt="Défilé vers le bas">
 
     </header>
+
+    <section class="d-flex flex-column items-center txt-center">
+
+        <h3 class="txt-center txt-white txt-white txt-up fw-bold w-90 pb-2 mt-3">
+            Compétences
+        </h3>
+
+        <div class="d-flex justify-around flex-wrap gap-1">
+
+            <div id="skill"
+                class="d-flex flex-column items-center justify-around relative wh-100 w-40 vh-25 relative overflow-h">
+                <img src="assets/img/css3-logo.svg" class="object-contain filter w-100 h-100 max-w-70"
+                    alt="Logo du language HTML 5" />
+                <div class="d-flex flex-column justify-around items-center absolute bottom-0 w-100 bg">
+                    <div class="w-100 pb-1 pt-1">
+                        <h6 class="txt-white txt-up fw-bold">CSS 3</h6>
+                        <small class="fw-bold txt-white txt-underline fs-05">Language Front End</small>
+                    </div>
+
+                    <ul class="d-flex justify-around items-center p-1 list-none">
+                        <li>
+                            <a href="" class="btn-dark link-dark-grey fw-bold txt-white p-05">En savoir plus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div id="skill"
+                class="d-flex flex-column items-center justify-around relative wh-100 w-40 vh-25 relative overflow-h">
+                <img src="assets/img/css3-logo.svg" class="object-contain filter w-100 h-100 max-w-70"
+                    alt="Logo du language HTML 5" />
+                <div class="d-flex flex-column justify-around items-center absolute bottom-0 w-100 bg">
+                    <div class="w-100 pb-1 pt-1">
+                        <h6 class="txt-white txt-up fw-bold">CSS 3</h6>
+                        <small class="fw-bold txt-white txt-underline fs-05">Language Front End</small>
+                    </div>
+
+                    <ul class="d-flex justify-around items-center p-1 list-none">
+                        <li>
+                            <a href="" class="btn-dark link-dark-grey fw-bold txt-white p-05">En savoir plus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <p class="mt-5 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error atque, vero distinctio
+        autem enim, nihil
+        magni dicta nam nisi dignissimos consectetur. Obcaecati voluptatem vero laborum, eum numquam eaque! Alias autem
+        a obcaecati in velit aperiam eligendi omnis vitae, sed sint quod optio commodi cupiditate quis ex maiores
+        voluptate enim laborum quasi voluptatem! Cumque molestiae mollitia dolorem porro velit suscipit eligendi natus
+        culpa, cum at nesciunt, in ex aliquid laborum fuga exercitationem labore vero, perspiciatis consequatur
+        praesentium doloremque. Deserunt, quaerat consectetur quae in, doloribus nihil eveniet commodi nobis consequatur
+        obcaecati delectus ducimus porro cum eaque dolor iusto repellat sequi suscipit fugiat error impedit dignissimos
+        cumque ullam accusantium! Odio ducimus excepturi amet. Ad, dolore quod. Ipsa sint dolore aliquam voluptates
+        sapiente explicabo qui soluta quas eaque animi consequatur molestias perferendis voluptate accusantium,
+        assumenda inventore quod quaerat cupiditate? Ab ipsam delectus consectetur adipisci voluptate, quam laborum
+        blanditiis!</p>
 
     <script src="assets/js/script.js"></script>
 </body>

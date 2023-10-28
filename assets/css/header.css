@@ -1,4 +1,4 @@
-.avatar {
+#avatar {
     width: calc(min(60vw, 40vh));
     height: calc(min(60vw, 40vh));
     border-radius: 50%;
@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
 }
 
-.avatar:hover {
+#avatar:hover {
     background-image: url("../img/me-hover.svg");
 }
 
