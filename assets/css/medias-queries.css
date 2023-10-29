@@ -24,7 +24,12 @@
 
     header>div:first-child {
         flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 2em;
+    }
 
+    .skill {
+        width: 25%;
     }
 
 
@@ -52,6 +57,10 @@
         flex-direction: row;
         justify-content: space-evenly;
         font-size: 2em;
+    }
+
+    .skill {
+        width: 25%;
     }
 
 }
