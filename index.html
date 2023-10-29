@@ -20,7 +20,7 @@
 <body class="bg-dark txt-white">
 
     <!-- NAVIGATION BAR / NAVIGATION LINKS / MOBILE CONTACT LINKS -->
-    <nav class="d-flex items-center justify-around fixed vh-10 w-100 top-0 bg-dark fw-bold z-2">
+    <nav class="d-flex items-center justify-around fixed vh-10 vw-100 top-0 bg-dark fw-bold z-2">
 
         <h1 class="fs-1-5">Portfolio</h1>
 
@@ -47,7 +47,7 @@
             </li>
 
             <!--Navigation contact items link  (mobile) -->
-            <li id="mobile-items" class="d-flex justify-around bg-dark max-w-80 p-1 gap-1">
+            <li id="mobile-items" class="d-flex justify-around bg-dark p-1 gap-1 h-10">
                 <!-- Phone Mobile contact -->
                 <a href="tel:+079872943" class="d-flex items-center p-1 link-dark-grey" target="_blank">
                     <img src="assets/img/contact-phone.svg" class="h-100 w-100"
@@ -76,18 +76,20 @@
     </nav>
 
     <!-- HEADER / DOWNLOAD CV BUTTON / PC CONTACT LINKS -->
-    <header class="d-flex flex-column justify-evenly items-center dvh-90 bg-dark-light mt-10vh">
+    <header class="d-flex flex-column items-center justify-evenly dvh-90 bg-dark-light w-100">
 
-        <!-- Avatar profile -->
-        <div id="avatar" class="shadow-bottom bg-dark transition-05 mt-1"></div>
 
-        <!-- Titre profile -->
-        <section class="d-flex flex-column txt-center gap-1">
-            <h2 class="txt-up txt-large">
-                <span class="txt-spc-02">Hariouat</span> Christopher
-            </h2>
-            Développeur Web & Mobile
-        </section>
+        <div class="d-flex flex-column items-center txt-center gap-2 w-100">
+            <!-- Avatar profile -->
+            <div id="avatar" class="shadow-bottom bg-dark transition-05 mt-1 mb-1"></div>
+
+            <!-- Titre profile -->
+            <div class="d-flex flex-column">
+                <h2 class="txt-up txt-large"><span class="txt-spc-02">Hariouat</span> Christopher</h2>
+                <h3 class="fw-normal">Développeur Web & Mobile</h3>
+            </div>
+
+        </div>
 
         <!-- Download cv button -->
         <a id="download-cv" href="#" class="btn-dark link-dark-grey p-1 txt-white fw-bold txt-up shadow-bottom"
@@ -95,14 +97,14 @@
             Télécharger mon cv
         </a>
 
-        <img id="arrow-down" src="assets/img/arrow-down.svg" class="w-10 h-10 test" alt="Défilé vers le bas">
+        <img id="arrow-down" src="assets/img/arrow-down.svg" class="w-50 vh-5" alt="Défilé vers le bas">
 
     </header>
 
     <section class="d-flex flex-column items-center txt-center pt-5 pb-5">
 
         <!-- Section Title -->
-        <h3 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-4">À propos</h3>
+        <h4 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-4">À propos</h4>
 
     </section>
 
@@ -110,7 +112,7 @@
     <section class="d-flex flex-column items-center txt-center bg-dark-light pt-5 pb-5">
 
         <!-- Section Title -->
-        <h3 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-5">Compétences</h3>
+        <h4 class="txt-white txt-white txt-up txt-spc-02 fw-bold mb-5">Compétences</h4>
 
         <!-- Skills container -->
         <div class="d-flex justify-evenly flex-wrap gap-2 w-100">

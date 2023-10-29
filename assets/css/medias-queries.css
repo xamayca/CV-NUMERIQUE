@@ -19,7 +19,12 @@
         position: initial;
         transform: none;
         height: initial;
-        width: 35%;
+        width: 60%;
+    }
+
+    header>div:first-child {
+        flex-direction: row;
+
     }
 
 
@@ -40,8 +45,13 @@
         position: initial;
         transform: none;
         height: initial;
-        width: 35%;
+        width: 40%;
     }
 
+    header>div:first-child {
+        background: red;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
 }
