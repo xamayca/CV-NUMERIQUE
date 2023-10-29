@@ -49,9 +49,9 @@
     }
 
     header>div:first-child {
-        background: red;
         flex-direction: row;
         justify-content: space-evenly;
+        font-size: 2em;
     }
 
 }
