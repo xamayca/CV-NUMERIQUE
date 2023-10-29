@@ -8,7 +8,7 @@
 
     #menu-open,
     #menu-close,
-    #mobile-items {
+    #contact-mobile {
         display: none;
     }
 
@@ -28,6 +28,14 @@
         font-size: 2em;
     }
 
+    #contact-pc {
+        display: flex;
+    }
+
+    #download-cv {
+        font-size: 1.3em;
+    }
+
     #skills-container {
         gap: 5em;
     }
@@ -44,7 +52,7 @@
 
     #menu-open,
     #menu-close,
-    #mobile-items {
+    #contact-mobile {
         display: none;
     }
 
@@ -64,6 +72,13 @@
         font-size: 2em;
     }
 
+    #contact-pc {
+        display: flex;
+    }
+
+    #download-cv {
+        font-size: 1.3em;
+    }
 
     #skills-container {
         gap: 5em;
