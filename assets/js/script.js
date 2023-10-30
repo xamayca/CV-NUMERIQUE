@@ -18,5 +18,6 @@ menuCloseHtml.addEventListener('click', () => {
     menuOpenHtml.classList.toggle('d-none');
     menuCloseHtml.classList.toggle('d-none');
 
+    document.body.classList.toggle('overflow-v');
 });
 

@@ -1132,6 +1132,10 @@ h6 {
     overflow: hidden;
 }
 
+.overflow-v {
+    overflow: visible;
+}
+
 /***** Z-INDEX CSS GENERAL *****/
 /******************************/
 .z-0 {
