@@ -1132,8 +1132,8 @@ h6 {
     overflow: hidden;
 }
 
-.overflow-v {
-    overflow: visible;
+.overflow-auto {
+    overflow: auto;
 }
 
 /***** Z-INDEX CSS GENERAL *****/
