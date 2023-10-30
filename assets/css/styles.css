@@ -1136,6 +1136,10 @@ h6 {
     overflow: auto;
 }
 
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
 /***** Z-INDEX CSS GENERAL *****/
 /******************************/
 .z-0 {
