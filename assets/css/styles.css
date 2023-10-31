@@ -1,3 +1,25 @@
+#test:hover img {
+    transform: translateX(-61%);
+    transition: transform 0.5s ease-in-out; /* Transition pour la transformation de l'image */
+}
+
+#test aside {
+    opacity: 1;
+    transition: all 1s ease-in-out; /* Transition pour l'opacité de h5 */
+}
+
+#test:hover aside {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition pour l'opacité et la transformation de h5 lors du survol */
+}
+
+#test img {
+    transition: all 1s ease-in-out; /* Transition pour toutes les propriétés de l'image */
+}
+.vh-30{
+    height: 30vh;
+}
 * {
     text-decoration: none;
     padding: 0;
@@ -47,6 +69,10 @@ h4,
 h5,
 h6 {
     font-size: 1em;
+}
+
+.fs-08 {
+    font-size: 0.8em;
 }
 
 .fs-1 {
@@ -1320,6 +1346,14 @@ h6 {
 
 .right-100 {
     right: 100%;
+}
+
+.right-n25 {
+    right: -25%;
+}
+
+.right-n50 {
+    right: -50%;
 }
 
 .right-n100 {
