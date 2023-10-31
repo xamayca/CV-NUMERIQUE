@@ -1,0 +1,15 @@
+.project:hover img {
+    transform: translateX(-61%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.project:hover aside {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.project img, aside {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
