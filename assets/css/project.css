@@ -1,14 +1,14 @@
-.project:hover img {
-    transform: translateX(-61%);
-  
+.project div {
+    transition: all 0.5s ease-in-out;
 }
 
-.project:hover aside {
-    opacity: 0;
-    transform: translateX(-100%);
+.project:hover div {
+    transform: translateX(-61.5%);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.project img, aside {
-    transition: all 1s ease-in-out;
+.project:hover div:last-child {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
