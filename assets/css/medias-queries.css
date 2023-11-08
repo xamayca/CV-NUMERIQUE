@@ -47,6 +47,9 @@
     .project {
         width: 40%;
     }
+    .project div:last-child {
+        width: 60%;
+    }
 
 
 
